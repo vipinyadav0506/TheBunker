@@ -1,3 +1,4 @@
+```html id="d7r2tq"
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,12 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>THE BUNKER | DayZ Survival Community</title>
+    <title>THE BUNKER | DayZ Survival</title>
 
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- STYLE -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,33 +20,49 @@
     <!-- HERO SECTION -->
     <header class="hero">
 
+        <!-- DARK OVERLAY -->
         <div class="overlay"></div>
 
+        <!-- CONTENT -->
         <div class="hero-content">
 
-            <img src="THE_BUNKER_logo.png" alt="The Bunker Logo" class="logo">
+            <!-- YOUR CUSTOM LOGO -->
+            <div class="logo-wrapper">
 
+                <!-- REPLACE THIS IMAGE WITH YOUR LOGO -->
+                <img src="THE_BUNKER_logo.png"
+                     alt="THE_BUNKER_logo.png"
+                     class="main-logo">
+
+            </div>
+
+            <!-- MAIN TITLE -->
             <h1>THE BUNKER</h1>
 
+            <!-- SUB TITLE -->
             <p class="tagline">
-                Escape The Darkness. Survive The Nightmare.
+                ESCAPE THE DARKNESS. SURVIVE THE NIGHTMARE.
             </p>
 
-            <p class="subtext">
+            <!-- DESCRIPTION -->
+            <p class="description">
                 Hardcore DayZ survival experience featuring custom bunkers,
-                nightmare creatures, events, and immersive gameplay.
+                nightmare creatures, PvP zones, custom events,
+                underground facilities, and immersive gameplay.
             </p>
 
-            <div class="buttons">
+            <!-- BUTTONS -->
+            <div class="button-group">
 
                 <a href="https://discord.gg/E6JGQmf7R8"
                    target="_blank"
-                   class="btn discord-btn">
-                    Join Discord
+                   class="btn primary-btn">
+                    JOIN DISCORD
                 </a>
 
-                <a href="#features" class="btn secondary-btn">
-                    Explore Features
+                <a href="#features"
+                   class="btn secondary-btn">
+                    EXPLORE FEATURES
                 </a>
 
             </div>
@@ -54,60 +72,97 @@
     </header>
 
     <!-- ABOUT -->
-    <section class="section about">
+    <section class="about-section">
 
-        <h2>About The Server</h2>
+        <div class="about-container">
 
-        <p>
-            THE BUNKER is a dark and immersive DayZ experience built for players
-            who want true survival. Fight through terrifying infected creatures,
-            raid underground bunkers, survive brutal PvP encounters,
-            and build your legacy in a hostile world.
-        </p>
+            <div class="about-text">
+
+                <h2>ABOUT THE SERVER</h2>
+
+                <div class="line"></div>
+
+                <p>
+                    THE BUNKER is a dark and immersive DayZ experience
+                    built for players who want true survival.
+                    Fight through terrifying infected creatures,
+                    raid underground bunkers, survive brutal PvP encounters,
+                    and build your legacy in a hostile world.
+                </p>
+
+            </div>
+
+            <!-- YOUR IMAGE SPACE -->
+            <div class="about-image">
+
+                <!-- REPLACE THIS -->
+                <img src="Bunker theme background2.png" alt="Bunker theme background2.png">
+
+            </div>
+
+        </div>
 
     </section>
 
     <!-- FEATURES -->
-    <section class="section dark" id="features">
+    <section class="features-section" id="features">
 
-        <h2>Server Features</h2>
+        <h2>SERVER FEATURES</h2>
 
-        <div class="features-grid">
+        <div class="feature-line"></div>
 
-            <div class="card">
-                <h3>Underground Bunkers</h3>
+        <div class="feature-grid">
+
+            <div class="feature-card">
+
+                <div class="icon">☢</div>
+
+                <h3>UNDERGROUND BUNKERS</h3>
 
                 <p>
-                    Explore dangerous military bunkers filled with nightmare creatures,
-                    loot events, and hidden secrets.
+                    Explore dangerous military bunkers filled
+                    with nightmare creatures and hidden secrets.
                 </p>
+
             </div>
 
-            <div class="card">
-                <h3>Advanced Trader</h3>
+            <div class="feature-card">
+
+                <div class="icon">⚔</div>
+
+                <h3>ADVANCED TRADER</h3>
 
                 <p>
-                    Balanced economy system with black market traders,
-                    rare loot circulation, and progression-based gameplay.
+                    Balanced economy system with custom market traders,
+                    rare loot circulation, and progression gameplay.
                 </p>
+
             </div>
 
-            <div class="card">
-                <h3>Custom Events</h3>
+            <div class="feature-card">
+
+                <div class="icon">☣</div>
+
+                <h3>CUSTOM EVENTS</h3>
 
                 <p>
-                    Dynamic PvP hotspots, airdrops, bunker raids,
-                    and world events designed for high-risk gameplay.
+                    Dynamic events, airdrops,
+                    bunker raids, and world survival events.
                 </p>
+
             </div>
 
-            <div class="card">
-                <h3>Unique Mods</h3>
+            <div class="feature-card">
+
+                <div class="icon">⛑</div>
+
+                <h3>UNIQUE MODS</h3>
 
                 <p>
-                    Custom tactical gear, sci-fi equipment,
-                    advanced weapons, and immersive survival mechanics.
+                    Tactical gear, sci-fi equipment,
+                    advanced weapons, and survival mechanics.
                 </p>
+
             </div>
 
         </div>
@@ -115,47 +170,64 @@
     </section>
 
     <!-- RULES -->
-    <section class="section">
+    <section class="rules-section">
 
-        <h2>Server Rules</h2>
+        <h2>SERVER RULES</h2>
+
+        <div class="line"></div>
 
         <div class="rules-box">
 
-            <ul>
-                <li>No cheating, exploiting, or hacking.</li>
-                <li>Respect players and admins.</li>
-                <li>No hate speech or harassment.</li>
-                <li>Report bugs responsibly.</li>
-            </ul>
+            <div class="rule-item">✔ No cheating or hacking.</div>
+
+            <div class="rule-item">✔ Respect players and admins.</div>
+
+            <div class="rule-item">✔ No hate speech or harassment.</div>
+
+            <div class="rule-item">✔ Report bugs responsibly.</div>
 
         </div>
 
     </section>
 
     <!-- SUPPORT -->
-    <section class="section dark support">
+    <section class="support-section">
 
-        <h2>Support The Server</h2>
+        <div class="support-content">
 
-        <p>
-            Donations help us improve performance, maintain hosting,
-            create custom content, and keep THE BUNKER evolving.
-        </p>
+            <div>
 
-        <p class="important">
-            Donations are voluntary and never provide pay-to-win advantages.
-        </p>
+                <h2>SUPPORT THE SERVER</h2>
 
-        <a href="https://paypal.me/TheBunkerServers"
-           target="_blank"
-           class="btn donate-btn">
-            Support The Server
-        </a>
+                <p>
+                    Donations help us improve performance,
+                    maintain hosting, create custom content,
+                    and keep THE BUNKER evolving.
+                </p>
+
+                <p class="warning">
+                    Donations are voluntary and never provide pay-to-win advantages.
+                </p>
+
+            </div>
+
+            <a href="https://paypal.me/TheBunkerServers"
+               target="_blank"
+               class="support-btn">
+                SUPPORT THE SERVER
+            </a>
+
+        </div>
 
     </section>
 
     <!-- FOOTER -->
     <footer>
+
+        <!-- YOUR SMALL FOOTER LOGO -->
+        <img src="THE_BUNKER_logo.png"
+             alt="Footer Logo"
+             class="footer-logo">
 
         <p>
             This website is not affiliated with or endorsed by
@@ -167,7 +239,7 @@
         </p>
 
         <p class="copyright">
-            © 2026 THE BUNKER Community
+            © 2026 THE BUNKER COMMUNITY
         </p>
 
     </footer>
